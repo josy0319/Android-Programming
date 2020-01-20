@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity() {
         mapView.onLowMemory()
     }
     //서울 열린 데이터 광장에서 발급받은 API 키 입력
-    val API_KEY="45416570466a6f733433645779704c"
+    val API_KEY=""
     //앱이 비활성화 될 때 백그라운드 작업도 취소하기 위한 변수 선언
     var task :ToiletReadTask?= null
     //서울시 화장실 정보 집합을 저장할 Array 변수. 검색을 위해 저장
